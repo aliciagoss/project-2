@@ -11,10 +11,10 @@ section{
   width: 100%;
   float: left;
 }
-  .header{
+  header{
     background-color:#560c0d
   }
-  .nav{
+  nav{
   
       list-style:none;
       margin:0;
@@ -37,12 +37,12 @@ section{
       font-weight: bold;
       font-family: arial;
   }
-  .nav a{
+  nav a{
       list-style:none;  
       display:inline-block;
       padding:25px;
       padding-right: 30px;
-      color: #560c0d;
+      color: #ffffff;
       text-decoration: none;
       font-weight: bold;
       font-family: arial;
@@ -109,7 +109,7 @@ section{
      display: inline-block;
      font-size: 16px;
      border-radius: 4px;
-     float: right;
+    
   }
   
   .grid {
@@ -215,3 +215,23 @@ section{
     width: 200px;
     height: auto;
 }
+
+a{
+  text-decoration: none;
+color: inherit;
+}
+
+a:hover{
+  color: #F6C944;
+
+}
+
+ol{
+  list-style:none;
+}
+
+li{
+  border-bottom: 1px solid black;
+
+}
+
